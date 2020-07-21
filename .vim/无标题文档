@@ -1,0 +1,10 @@
+"安装插件
+cd .vim/bundle/  
+git clone http://github.com/...
+vi .vimrc "修改插件配置
+
+"删除插件
+rm -rf bundle/dirname
+git rm -rf bundle/dirname
+
+
