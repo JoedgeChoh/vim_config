@@ -63,7 +63,6 @@ let Tlist_Exit_OnlyWindow = 1    " 当只剩下taglist窗口时，自动退出vi
 let Tlist_WinWidth = 20          " taglist窗口的宽度
 noremap <C-F8> :Tlist<CR>        " 打开aglist窗口的快捷键
 
-set tags=~/vector/tags
 
 "语法检查设置
 let g:syntastic_enable_signs = 1
