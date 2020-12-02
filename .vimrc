@@ -37,9 +37,9 @@ endif
 
 "编辑设置
 set expandtab "扩展制表符号为空格
-set tabstop=4 "制表符占空格数
-set softtabstop=4 "将连续数量的空格视为一个制表符
-set shiftwidth=4 "自动缩进所使用的空白数
+set tabstop=2 "制表符占空格数
+set softtabstop=2 "将连续数量的空格视为一个制表符
+set shiftwidth=2 "自动缩进所使用的空白数
 set textwidth=79 "编辑器每行字符数
 set autoindent "打开自动缩进
 set wildmenu "vim命令自动补全
@@ -81,10 +81,10 @@ let g:syntastic_cpp_compiler_options = '-std=c++11'
 "设置pyflakes为默认的python语法检查工具
 let g:syntastic_python_checkers = ['pyflakes']
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
 "lubanr-commenter插件设置，主要是公司名称，作者名称等信息
