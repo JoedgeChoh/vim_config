@@ -2,6 +2,7 @@
 # develop
 # release01:test and bugfix
 # develop by zhuhe
+# develop by huzi
 a simple vim config by pathogen  
 usage:  
 1.将.vim文件夹和.vimrc配置文件复制到/home路径下  
