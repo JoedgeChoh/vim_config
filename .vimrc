@@ -16,9 +16,9 @@ set number "显示行号
 
 
 "tab相关设置
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 "颜色方案
@@ -58,9 +58,9 @@ language message zh_CN.UTF-8
 let Tlist_Auto_Open = 0          " 打开vim时，自动打开Taglist
 let Tlist_Show_One_File=1        " 只显示当前文件的taglist
 let Tlist_Exit_OnlyWindow = 1    " 当只剩下taglist窗口时，自动退出vim
-"let Tlist_Use_Right_Window = 1  " taglist窗口的位置
+let Tlist_Use_Right_Window = 1  " taglist窗口的位置
 ""let Tlist_WinHeight = 100       " taglist窗口的高度
-let Tlist_WinWidth = 20          " taglist窗口的宽度
+let Tlist_WinWidth = 40          " taglist窗口的宽度
 noremap <C-F8> :Tlist<CR>        " 打开aglist窗口的快捷键
 
 
