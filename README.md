@@ -1,4 +1,6 @@
-# vim_config pathogen  
+# vim_config pathogen 
+# develop
+# release01:test and bugfix
 a simple vim config by pathogen  
 usage:  
 1.将.vim文件夹和.vimrc配置文件复制到/home路径下  
