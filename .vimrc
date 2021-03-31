@@ -13,7 +13,7 @@ filetype plugin indent on
 set laststatus=2 "总是显示状态栏
 set ruler "显示光标位置
 set number "显示行号
-
+set statusline=[%F]%y%r%m%*%=[Line:%l/%L,Column:%c][%p%%] "显示文件名：总行数，总的字符数
 
 "tab相关设置
 set tabstop=2
