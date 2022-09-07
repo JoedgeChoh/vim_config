@@ -62,6 +62,8 @@ let Tlist_Use_Right_Window = 1  " taglist窗口的位置
 ""let Tlist_WinHeight = 100       " taglist窗口的高度
 let Tlist_WinWidth = 40          " taglist窗口的宽度
 noremap <C-F8> :Tlist<CR>        " 打开aglist窗口的快捷键
+map <c-]> g<c-]>
+set tags=/home/user/van_local/tags
 
 
 "语法检查设置
